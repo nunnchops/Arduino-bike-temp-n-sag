@@ -41,6 +41,8 @@
  *  
  *  MAiN HARDWARE LIST:
  *  1 X ARDUINO NANO
+ *  1 X Hitachi 16x2 LCD
+ *  1 X LCD i2c Serial interface 
  *  1 X BUTTON
  *  2 X SRF05 ULTRASONiC SENSOR (if measuring both front and back sag)
  *  6 X MLX90614 (if monitoring both front and back tire temps)
