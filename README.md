@@ -39,19 +39,19 @@ You can source a lot of these shields at really reasonable prices so hunt around
 ##Credits
 Huge thanks to all of the following and credit for code snippets and example sketches
 
- *  MLX90614 EVAL info
- *  https://learn.sparkfun.com/tutorials/mlx90614-ir-thermometer-hookup-guide?_ga=1.251311686.1757702733.1459322548
+ *  MLX90614 EVAL info:
+    https://learn.sparkfun.com/tutorials/mlx90614-ir-thermometer-hookup-guide?_ga=1.251311686.1757702733.1459322548
  
- *  multiple MLX90614 devices
+ *  multiple MLX90614 devices:
     http://www.chrisramsay.co.uk/posts/2014/09/arduino-and-multiple-mlx90614-sensors/
  
- *  ARDUINO YUN info
+ *  ARDUINO YUN info:
     https://www.arduino.cc/en/Main/ArduinoBoardYun
  
  *  Reading from multiple I2C devices on the I2C bus: 
     http://www.electroschematics.com/9798/reading-temperatures-i2c-arduino/
  
- *  Updated i2C Master lib used instead of Wire.h 
+ *  Updated i2C Master lib used instead of Wire.h: 
     http://dsscircuits.com/articles/86-articles/66-arduino-i2c-master-library
     http://playground.arduino.cc/Main/WireLibraryDetailedReference
    
