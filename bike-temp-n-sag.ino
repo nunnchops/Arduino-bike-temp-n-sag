@@ -453,7 +453,7 @@ void printtemps(float temp, int address) {
       //lcd.clear();
       //delay(500);
       lcd.setCursor (0, 0);
-      lcd.print("R LOW");
+      lcd.print("R COLD");
     }
   }
   if (address == irad5) {
@@ -466,7 +466,7 @@ void printtemps(float temp, int address) {
       //lcd.clear();               // in order to flash nicely we may need to clear more than one character but function does not take this
       //delay(500);
       lcd.setCursor (7, 0);
-      lcd.print( "LOW" );
+      lcd.print( "COLD" );
     }
   }
   if (address == irad6) {
@@ -479,7 +479,7 @@ void printtemps(float temp, int address) {
       //lcd.clear();
       //delay(500);
       lcd.setCursor (12, 0);
-      lcd.print( "LOW" );
+      lcd.print( "COLD" );
     }
   }
 }
