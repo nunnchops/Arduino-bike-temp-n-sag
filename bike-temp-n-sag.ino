@@ -105,9 +105,9 @@ void setup() {
   lcd.begin (16, 2);                                                    // initialize the lcd
 
   lcd.home ();                                                          // go home
-  lcd.print(" STATIC SAG TOOL VER 1.0 ");
+  lcd.print("TEMP-N-SAG TOOL");
   lcd.setCursor ( 0, 1 );                                               // go to the next line
-  lcd.print ("   ++LOUBEE MOTO++     ");
+  lcd.print ("++LOUBELL MOTO++ ");
   delay ( 1000 );
 
 }
@@ -413,7 +413,7 @@ void printtemps(float temp, int address) {
       //lcd.clear();
       //delay(500);
       lcd.setCursor (0, 0);
-      lcd.print("F LOW");
+      lcd.print("F COLD");
     }
   }
   if (address == irad2) {
@@ -426,7 +426,7 @@ void printtemps(float temp, int address) {
       //lcd.clear();               
       //delay(500);
       lcd.setCursor (7, 0);
-      lcd.print( "LOW" );
+      lcd.print( "COLD" );
     }
   }
   if (address == irad3) {
@@ -439,7 +439,7 @@ void printtemps(float temp, int address) {
       //lcd.clear();
       //delay(500);
       lcd.setCursor (12, 0);
-      lcd.print( "LOW" );
+      lcd.print( "COLD" );
     }
   }
   if (address == irad4) {
