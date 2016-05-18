@@ -4,6 +4,8 @@
 This was created based on a requirement for an on-board tire temperature monitor from a bike racing friend. 
 Now its turned into a challenge and a lot more...  
 
+Created by rog@linux.demon.co.uk
+
 There are even possibilities to use the temperature gauge on modern downhill mountain bikes, make wireless 
 telemetry access for the features using an Arduino Yun and its onboard Linux OS as well as a whole host of applications. ENJOY and be creative! if you do create something from this project please credit ALL of the contributors and associated sites listed below as its their hard work and openness that has enabled this fun project as well. Many thanks to everyone who helped out and posted their Open Source code on the net. 
 
