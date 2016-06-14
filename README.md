@@ -23,7 +23,9 @@ The first code to post here includes the following research sites and credits (s
 ![Front Ultrasonic Sag Sensor](/images/front.jpg)
 
  This uses two SRF05 Ultrasonic sensors that can be temporarily mounted under the tail unit and front fork bottom yoke to measure Static sag at the press of a button. 
-The concept is, just like the professional racers: in the pit garage the bike is lifted at the rear until the rear wheel is off the ground and a button is pressed, measurement 1 is taken, the bike is lowered again and again the button is pressed and measurement 2 is taken with or without the rider on board. The difference is calculated and the static sag is printed on the screen in milli meters. Its a quick and easy method of checking suspension setup.    
+The concept is, just like the professional racers: in the pit garage the bike is lifted at the rear until the rear wheel is off the ground and a button is pressed, measurement 1 is taken, the bike is lowered again and again the button is pressed and measurement 2 is taken with or without the rider on board. The difference is calculated and the static sag is printed on the screen in milli meters. Its a quick and easy method of checking suspension setup. Included are some pictures of the prototype.... masking tape and all :) 
+
+![Rear Ultrasonic Sag Sensor](/images/rear_undertray.jpg)
 
 I have already started to tune the accuracy, with the help of related articles we can take the ambient temperature from one of the MLX90614 Infra red tire temp sensors and use it to calculate the speed of sound for our Ultrasonic measurement. This improves the accuracy due to the sensitivity of temperature and barometric pressure on speed of sound calculations :) 
 
@@ -40,6 +42,8 @@ You can source a lot of these shields at really reasonable prices so hunt around
  *  6 X MLX90614 (if monitoring Left, Middle and Right on both front and back tire temps)
 
 ##Pics and Blog of prototype to follow here 
+
+![Prototype mocked up](/images/readings.jpg)
 
 ##Credits
 Huge thanks to all of the following and credit for code snippets and example sketches
