@@ -20,6 +20,10 @@ The first code to post here includes the following research sites and credits (s
 -Infra red Tire temperature gauge: measuring Front and back Left, Middle and Right tire temperatures and outputting them on an onboard 16x2 LCD screen.
 
 -Ultrasonic static sag measurement tool.
+As I am a sad sack with no friends its difficult to take the measurements needed to work out my suspension travel on my own... sigh.... so, I came up with a plan to use a pair of  ultrasonic sensors, an arduino nano and some masking tape (replacing the role of one of my friends holding the measuring device in place hehe!) 
+Wondering what sag is then find more info here (thanks for the awesome vid on youtube guys): 
+https://www.youtube.com/watch?v=Mi3C4AuWBc0
+
 ![Front Ultrasonic Sag Sensor](/images/front.jpg)
 
  This uses two SRF05 Ultrasonic sensors that can be temporarily mounted under the tail unit and front fork bottom yoke to measure Static sag at the press of a button. 
